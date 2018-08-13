@@ -34,4 +34,4 @@ if __name__=="__main__":
 
 	string = "abcdefghi"
 	print isUnique_1(string)
-	print isUnique_2(string)s
+	print isUnique_2(string)
