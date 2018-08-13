@@ -1,5 +1,5 @@
 """
-Cracking the coding interview 
+Cracking the coding interview 6th
 1.1
 """
 
@@ -14,7 +14,6 @@ def isUnique_1(string):
 			hashmap[i]+=1
 		else:
 			hashmap[i]=1
-	
 	for key,value in hashmap.items():
 		if(value != 1):
 			return False
